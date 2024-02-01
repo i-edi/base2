@@ -102,16 +102,19 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Trebuchet MS', san-serif;
 		color: #7b818c;
-		font-weight: 400;
-		font-size: 11pt;
-		line-height: 1.85em;
+		font-weight: 300;
+		font-size: 14pt;
+		line-height: 1.3em;
 	}
+
+	
 
 	a {
 		color: inherit;
-		text-decoration: underline;
+		font-family: 'Georgia', serif;
+		
 	}
 
 		a:hover {
@@ -119,6 +122,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family:"georgia", serif;
 		text-transform: uppercase;
 		font-weight: 800;
 		letter-spacing: 0.04em;
@@ -1853,6 +1857,10 @@ input, select, textarea {
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
+	}
+
+	#notes {
+		
 	}
 
 	#main-wrapper {
